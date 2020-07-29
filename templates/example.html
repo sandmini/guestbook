@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Example
+        </title>
+    </head>
+    <body>
+        {% if myvar %}
+        <h1>Helloworld@#!{{myvar}}</h1>
+        {% else %}
+        <h1>No var</h1>
+        {% endif %}
+
+        <h1>End</h1>
+
+        {% for link in links %}
+        <a href="{{ link }}">Here is a link!</a>
+        {% endfor %}
+    </body>
+</html>
